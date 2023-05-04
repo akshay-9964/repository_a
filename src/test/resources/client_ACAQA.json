@@ -1,0 +1,2476 @@
+{
+  "client" : {
+    "clientCode" : "ACAQA",
+    "extCode" : "",
+    "clientName" : "AAA Mid Atlantic",
+    "type" : "WORKDAY",
+    "timeFormat" : "HH:mm:ss",
+    "dateFormat" : "MM/dd/yyyy",
+    "address1" : "One River Pl",
+    "address2" : "",
+    "address3" : "",
+    "city" : "Wilmington",
+    "state" : "DE",
+    "zipCode" : "19801",
+    "phone" : "3022994700",
+    "country" : "US",
+    "url" : "www.aaa.com",
+    "clientLogoType" : "Logo",
+    "hostAccount" : false,
+    "status" : "Active",
+    "isSuperTenant" : false,
+    "parentCode" : ""
+  },
+  "securityPolicy" : {
+    "passwordMinLength" : 8,
+    "passwordMaxLength" : 16,
+    "passwordStrength" : "S",
+    "passwordAge" : 90,
+    "passwordExpires" : true,
+    "passwordTracking" : 3,
+    "loginTrialInterval" : 10,
+    "loginTrialMax" : 3,
+    "loginLockoutInterval" : 1,
+    "enableLockoutEmail" : true,
+    "enable2Fa" : false,
+    "twoFaMethod" : null,
+    "sessionIdleTime" : null
+  },
+  "modules" : {
+    "agencyModule" : true,
+    "shiftScheduleModule" : true,
+    "roundingRuleModule" : true,
+    "visitorModule" : true
+  },
+  "properties" : [ {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.IncludePersonInformation",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.IncludeEmployeeInformation",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getWorkers.IncludeOrganizations",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.IncludePhoto",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.IncludeCompensation",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeCostCenters",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeOrganizationSupportRoleData",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeLocationHierarchies",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeCostCenterHierarchies",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeCompanies",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeCompanyHierarchies",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeMatrixOrganizations",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludePayGroups",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeRegions",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeRegionHierarchies",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeCustomOrganizations",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeSupervisoryOrganizations",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeTeams",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.LoadByEffectiveDays",
+    "propertyValue" : "null"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.LoadByUpdatedDays",
+    "propertyValue" : "2"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.IncludeRoles",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.IncludeHierarchy",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.IncludeStaffingRestrictions",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.IncludeSupervisoryData",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.OrganizationRefType",
+    "propertyValue" : "Organization_Reference_ID"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.OrganizationRefValue",
+    "propertyValue" : "null"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getlocations.PageCount",
+    "propertyValue" : "100"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.PageCount",
+    "propertyValue" : "100"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.PageCount",
+    "propertyValue" : "200"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.version",
+    "propertyValue" : "v26.1"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.endpoint",
+    "propertyValue" : "https://impl-cc.workday.com/ccx/service/zktechnology_pt1/Human_Resources/v26.0"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.username",
+    "propertyValue" : "ISU_ZK_DCS2@zktechnology_pt1"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.password",
+    "propertyValue" : "1000:f056719340b67e4d2827c3b3ad208d7b:55fd37aa8c9baeb808874697db703e3c:71306a386345304f436b6e7175622f5a72583273366353434d36452b416e596f48464745"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.ts.version",
+    "propertyValue" : "v26.1"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.ts.endpoint",
+    "propertyValue" : "https://impl-cc.workday.com/ccx/service/zktechnology_pt1/Time_Tracking/v26.0"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.ts.username",
+    "propertyValue" : "ISU_ZK_DCS3@zktechnology_pt1"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.ts.password",
+    "propertyValue" : "1000:fdbe24a1df87321617be6951bfa150e8:5dcfbbd54a3d1a352119ce73d2978431:382b676776437a5076636e354a537251354262562b6e6548732b3056614e654f79484e6471513d3d"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.timezone.Filter",
+    "propertyValue" : "US"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "systemOption.device.deviceAssignRule",
+    "propertyValue" : "A"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeInactiveWorkers",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeEmployees",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ExcludeContingentWorkers",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.DeviceOrgBindingLevel1",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.DeviceOrgBindingLevel2",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.defaulthierarchy.type",
+    "propertyValue" : "SUPERVISORY"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.LaborCodeMode",
+    "propertyValue" : "1"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.hierarchy.SupportedTypes",
+    "propertyValue" : "SUPERVISORY,MATRIX,PAY_GROUP,COMPANY"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.EnableAssignment",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.hierarchy.Types",
+    "propertyValue" : "SUPERVISORY,MATRIX,PAY_GROUP,COMPANY"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.application.modules.ShiftSchedule",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.company.EnableSubHierarchy",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.AutoAssignClockAdmin",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.bell.enable",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.DefaultVerifyMode",
+    "propertyValue" : "128"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.viewpunch.DaysLimit",
+    "propertyValue" : "14"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.viewpunch.InputFormat",
+    "propertyValue" : "MMddyyyy"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.viewpunch.MaxRecords",
+    "propertyValue" : "84"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.viewpunch.ViewFormat",
+    "propertyValue" : "MM/dd/yyyy HH:mm:ss"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.AsOfEffectiveDate",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.BusinessProcessTypeList",
+    "propertyValue" : "Hire Employee;Change Legal Name;Change Organization Assignments for Worker;Transfer Employee;Terminate Employee;Edit Other IDs for Worker;Contract Contingent Worker;End Contingent Worker Contract"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.TakeEffectiveDays",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.EffectiveUptoDays",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.EmployeeList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.EnableFullLoad",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.IncludeTransactionLogData",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.LoadByEffectiveHours",
+    "propertyValue" : "24"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.LoadByUpdatedHours",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.UpdatedUpToHours",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.timetrack.OrganizationType",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.security.certAlias",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.security.enableX509",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.retainBadgeCard",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.ResetInitOptionTime",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.SkipRemapProcess",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.PageCount",
+    "propertyValue" : "150"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.LoadByEffectiveDays",
+    "propertyValue" : "30"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.OrgCodeLabel",
+    "propertyValue" : "Cost Center"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.hr.PublishMode",
+    "propertyValue" : "B"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "security.2fa.secure_key.length",
+    "propertyValue" : "6"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "security.2fa.secure_key.expiry.minute",
+    "propertyValue" : "10"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "clockMonitor.service.ServiceNowIntegration",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "clockMonitor.service.ServiceNowURL",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "clockMonitor.service.ServiceNowAuthorization",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.custom1.CodeMap",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.application.modules.MultiplePosition",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.IncludeAdditionalJobs",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.BPTypeEffectiveList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.BPTypeEntryList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.BPTerminatedTypeEffectiveList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.BPTerminatedTypeUpdatedList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ContingentList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.ui.locationFullFormatDisplay",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.attlog.LastPunchExcludeState",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.EventIdPrefix",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.attlog.PunchState2Split",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.ui.excludeOrganizationSubTypeList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.ui.excludeOrganizationSubTypeList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.uploadattlog.testmode",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.attlog.LastPunchTZFormat",
+    "propertyValue" : "%02d%02d"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "clockMonitor.deviceSN.ignoreList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.ProcessBPListForIncorrectWorkerTypeProfile",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "clockMonitor.deviceSN.ignoreList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.FullLoadBPList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.absence.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.absence.SupportTimeOffPlanFilter",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.ui.functionKeyLockoutEnable",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.application.modules.deleteFingerPrintTemplateUponTermination",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.application.modules.deleteEmpBadgeNoUponTermination",
+    "propertyValue" : "TRUE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.batchSize",
+    "propertyValue" : "2000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.publishPreferredFormattedName",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getWorkers.includeSubordinateOrganizations",
+    "propertyValue" : "true"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.application.roundingRuleEnabled",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.custom2.CodeMap",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.visitormodule.aws.iam.secretKey",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.visitormodule.aws.iam.accessId",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.visitormodule.aws.bucket.name",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.visitormodule.aws.bucket.region",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "fleetnova.api.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "fleetnova.api.endpoint.key",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.device.temperatureUnit",
+    "propertyValue" : "C"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.ui.displayBusinessLocationName",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.custom3.CodeMap",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.activeReport.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.raas.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.workerSpecificReport.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.workerSpecificReport.username",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.workerSpecificReport.password",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.raas.username",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.raas.password",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.puttimeclockevents.LocationSource",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.employeeAdhocShiftChangesReport.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.employeeAdhocShiftChangesReport.username",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.webservice.employeeAdhocShiftChangesReport.password",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "attLog.offlineFastPunch.deriveEventCode.enabled",
+    "propertyValue" : "true"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "synerion.webservice.endpoint",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "synerion.webservice.username",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "synerion.webservice.password",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "timedata.highlight.lastcheckInCheckout.enabled",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "email.donotdisturblist",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "email.donotdisturblist",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getorganizations.EnableFullLoad",
+    "propertyValue" : "FALSE"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.EventTypeEffectiveList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.EventTypeEntryList",
+    "propertyValue" : ""
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.removeLeadingZerosFromBadge",
+    "propertyValue" : "true"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "HOST",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.application.modules.deleteFaceTemplateUponTermination",
+    "propertyValue" : "true"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.devicePwdAsEmployeeNo",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "WORKDAY",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "workday.getworkers.filter.enabled",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.android.maxFace",
+    "propertyValue" : "6000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.android.maxStorage",
+    "propertyValue" : "5558"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.linux.maxAttLog",
+    "propertyValue" : "100000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.linux.maxFingerPrint",
+    "propertyValue" : "20000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.linux.maxUser",
+    "propertyValue" : "10000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.android.maxAttLog",
+    "propertyValue" : "100000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.android.maxFingerPrint",
+    "propertyValue" : "20000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "device.android.maxUser",
+    "propertyValue" : "10000"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.employee.tempbadgeenrollment",
+    "propertyValue" : "false"
+  }, {
+    "applicationName" : "dcs",
+    "applyLevel" : "TENANT",
+    "category" : "GENERAL",
+    "controlLevel" : "TENANT",
+    "dataType" : "String",
+    "edit" : false,
+    "namespace" : "US/ACAQA",
+    "propertyKey" : "client.ivr.voice.rate",
+    "propertyValue" : "65%"
+  } ],
+  "xmlProperties" : [ {
+    "enabled" : true,
+    "directory" : "/US/ACAQA/",
+    "fileName" : "workerType-ACAQA.xml",
+    "content" : "<com.workday.hr.WorkerType>\r\n\t<dcs.xsl><![CDATA[<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\r\n<xsl:output method=\"xml\" encoding=\"ISO-8859-1\" indent=\"yes\" />\r\n<xsl:template match=\"com.workday.hr.WorkerType\">\t\r\n<com.zk.dcs.database.dataobject.Employee>  \r\n  <wid><xsl:value-of select=\"workerReference/id/com.workday.hr.WorkerObjectIDType/value[../type='WID']\"/></wid>\r\n  <employeeNumber><xsl:value-of select=\"workerReference/id/com.workday.hr.WorkerObjectIDType/value[../type='Employee_ID' or ../type='Contingent_Worker_ID']\"/></employeeNumber>    \r\n  <workerIdType><xsl:value-of select=\"workerReference/id/com.workday.hr.WorkerObjectIDType/type[../type!='WID']\"/></workerIdType>\r\n  <lastName><xsl:value-of select=\"workerData/personalData/nameData/legalNameData/nameDetailData/lastName\"/></lastName>\r\n  <firstName><xsl:value-of select=\"workerData/personalData/nameData/legalNameData/nameDetailData/firstName\"/></firstName>\r\n  <formattedName><xsl:value-of select=\"workerData/personalData/nameData/legalNameData/nameDetailData/formattedName\"/></formattedName>\r\n  <reportingName><xsl:value-of select=\"workerData/personalData/nameData/legalNameData/nameDetailData/reportingName\"/></reportingName>\r\n  <userId><xsl:value-of select=\"workerData/userID\"/></userId>  \r\n  <gender><xsl:value-of select=\"workerData/personalData/genderReference/id/com.workday.hr.GenderObjectIDType/value[../type='Gender_Code']\"/></gender>\r\n\r\n<badgeNumberList>\r\n  <xsl:for-each select=\"workerData/personalData/identificationData/customID/com.workday.hr.CustomIDType\">\r\n\t<xsl:for-each select= \"customIDData/idTypeReference/id/com.workday.hr.CustomIDTypeObjectIDType\">\r\n\t\t<xsl:if test=\"('BadgeID' = value)\">\r\n\t\t\t<xsl:if test=\"not(../../../expirationDate)\">\r\n\t\t\t\t<com.zk.dcs.database.dataobject.Badge>\r\n\t\t\t\t\t<badgeNumber><xsl:value-of select=\"../../../id\"/></badgeNumber> \r\n\t\t\t\t</com.zk.dcs.database.dataobject.Badge>\r\n\t\t\t</xsl:if>\r\n\t\t</xsl:if>\r\n\t</xsl:for-each>\r\n\t</xsl:for-each>\r\n</badgeNumberList>\r\n\r\n  <positionCode><xsl:value-of select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType/positionData/positionID\"/></positionCode>\r\n  <positionTitle><xsl:value-of select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType/positionData/positionTitle\"/></positionTitle>\r\n  <positionTimeType><xsl:value-of select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType/positionData/positionTimeTypeReference/descriptor\"/></positionTimeType>\r\n  <workerTypeCode><xsl:value-of select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType/positionData/workerTypeReference/id/com.workday.hr.PositionWorkerTypeObjectIDType/value[../type='Employee_Type_ID']\"/></workerTypeCode>\r\n  <workerTypeDesc><xsl:value-of select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType/positionData/workerTypeReference/descriptor\"/></workerTypeDesc>\r\n  <contractPayType><xsl:value-of select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType/positionData/payRateTypeReference/descriptor\"/></contractPayType>\r\n  <xsl:if test=\"'' != workerData/employmentData/workerStatusData/active\">\r\n  <enabled><xsl:value-of select=\"workerData/employmentData/workerStatusData/active\"/></enabled>\r\n  </xsl:if>\r\n  <xsl:if test=\"'' != workerData/employmentData/workerStatusData/terminated\">\r\n  <terminated><xsl:value-of select=\"workerData/employmentData/workerStatusData/terminated\"/></terminated>\r\n  </xsl:if>\r\n  <xsl:if test=\"'' != workerData/employmentData/workerStatusData/retired\">\r\n  <retired><xsl:value-of select=\"workerData/employmentData/workerStatusData/retired\"/></retired>\r\n  </xsl:if>\r\n  <employeeOrganizations>\r\n  <xsl:for-each select=\"workerData/organizationData/workerOrganizationData/com.workday.hr.WorkerOrganizationMembershipDataType\">\r\n  <com.zk.dcs.database.dataobject.EmployeeOrganization>\r\n  \t<organizationCode><xsl:value-of select=\"organizationData/organizationReferenceID\"/></organizationCode>\r\n\t<organizationName><xsl:value-of select=\"organizationData/organizationName\"/></organizationName>\r\n\t<organizationType><xsl:value-of select=\"organizationData/organizationTypeReference/id/com.workday.hr.OrganizationTypeObjectIDType/value[../type='Organization_Type_ID']\"/></organizationType>\r\n\t<organizationSubtype><xsl:value-of select=\"organizationData/organizationSubtypeReference/id/com.workday.hr.OrganizationSubtypeObjectIDType/value[../type='Organization_Subtype_ID']\"/></organizationSubtype>\r\n\t<primaryBusinessSiteCode><xsl:value-of select=\"organizationData/primaryBusinessSiteReference/id/com.workday.hr.LocationObjectIDType/value[../type='Location_ID']\"/></primaryBusinessSiteCode>\r\n\t<primaryBusinessSiteName><xsl:value-of select=\"organizationData/primaryBusinessSiteReference/descriptor\"/></primaryBusinessSiteName> \r\n\t<enabled><xsl:value-of select=\"'true'\"/></enabled>\r\n\t<createdUserName><xsl:value-of select=\"'workday'\"/></createdUserName>\r\n    <updatedUserName><xsl:value-of select=\"'workday'\"/></updatedUserName>\r\n  </com.zk.dcs.database.dataobject.EmployeeOrganization>\r\n  </xsl:for-each>\r\n  </employeeOrganizations>\r\n  <wdTransLog>\r\n  <xsl:for-each select=\"workerData/transactionLogEntryData/transactionLogEntry/com.workday.hr.TransactionLogEntryType\">\r\n  <com.zk.dcs.database.dataobject.WdTransLog>\r\n\t<businessProcess><xsl:value-of select=\"transactionLogData/transactionLogTypeReference/com.workday.hr.TransactionLogTypeObjectType/id/com.workday.hr.TransactionLogTypeObjectIDType/value[../type='Business_Process_Type']\"/></businessProcess>\r\n\t<effectiveXmlDate class=\"com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl\">\r\n\t<xsl:if test=\"'' != transactionLogData/transactionEffectiveMoment\">\r\n              <year><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/year\"/></year>\r\n              <month><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/month\"/></month>\r\n              <day><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/day\"/></day>\r\n              <timezone><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/timezone\"/></timezone>\r\n              <hour><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/hour\"/></hour>\r\n              <minute><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/minute\"/></minute>\r\n              <second><xsl:value-of select=\"transactionLogData/transactionEffectiveMoment/second\"/></second>\r\n\t</xsl:if>\r\n\t</effectiveXmlDate>\r\n\t<entryXmlDate class=\"com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl\">\r\n              <year><xsl:value-of select=\"transactionLogData/transactionEntryMoment/year\"/></year>\r\n              <month><xsl:value-of select=\"transactionLogData/transactionEntryMoment/month\"/></month>\r\n              <day><xsl:value-of select=\"transactionLogData/transactionEntryMoment/day\"/></day>\r\n              <timezone><xsl:value-of select=\"transactionLogData/transactionEntryMoment/timezone\"/></timezone>\r\n              <hour><xsl:value-of select=\"transactionLogData/transactionEntryMoment/hour\"/></hour>\r\n              <minute><xsl:value-of select=\"transactionLogData/transactionEntryMoment/minute\"/></minute>\r\n              <second><xsl:value-of select=\"transactionLogData/transactionEntryMoment/second\"/></second>\r\n\t</entryXmlDate>\r\n\t<rescinded><xsl:value-of select=\"transactionLogData/isRescindOrRescinded\"/></rescinded>\r\n  </com.zk.dcs.database.dataobject.WdTransLog>\r\n  </xsl:for-each>  \r\n  </wdTransLog>\r\n  <employeePositions>\r\n  <xsl:for-each select=\"workerData/employmentData/workerJobData/com.workday.hr.WorkerJobDataType\">\r\n  \t <com.zk.dcs.database.dataobject.EmployeePosition>\r\n  \t <primary><xsl:value-of select=\"primaryJob\"/></primary>\r\n   \t <code><xsl:value-of select=\"positionData/positionID\"/></code>\r\n  \t <title><xsl:value-of select=\"positionData/positionTitle\"/></title>\r\n  \t <workerType><xsl:value-of select=\"positionData/workerTypeReference/id/com.workday.hr.PositionWorkerTypeObjectIDType/value[../type='Employee_Type_ID']\"/></workerType>\r\n  \t <positionTimeType><xsl:value-of select=\"positionData/positionTimeTypeReference/id/com.workday.hr.PositionTimeTypeObjectIDType/value[../type='Position_Time_Type_ID']\"/></positionTimeType>  \t \r\n  \t <contractPayType><xsl:value-of select=\"positionData/payRateTypeReference/id/com.workday.hr.PayRateTypeObjectIDType/value[../type='Pay_Rate_Type_ID']\"/></contractPayType>\r\n  \t <businessSiteCode><xsl:value-of select=\"positionData/businessSiteSummaryData/locationReference/id/com.workday.hr.LocationObjectIDType/value[../type='Location_ID']\"/></businessSiteCode>\r\n  \t <businessSiteName><xsl:value-of select=\"positionData/businessSiteSummaryData/name\"/></businessSiteName>\r\n     <effectiveXmlDate class=\"com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl\">\r\n              <year><xsl:value-of select=\"positionData/effectiveDate/year\"/></year>\r\n              <month><xsl:value-of select=\"positionData/effectiveDate/month\"/></month>\r\n              <day><xsl:value-of select=\"positionData/effectiveDate/day\"/></day>\r\n              <timezone><xsl:value-of select=\"positionData/effectiveDate/timezone\"/></timezone>\r\n              <hour><xsl:value-of select=\"positionData/effectiveDate/hour\"/></hour>\r\n              <minute><xsl:value-of select=\"positionData/effectiveDate/minute\"/></minute>\r\n              <second><xsl:value-of select=\"positionData/effectiveDate/second\"/></second>\r\n\t</effectiveXmlDate>\r\n   </com.zk.dcs.database.dataobject.EmployeePosition>\r\n  </xsl:for-each>\r\n  </employeePositions>\r\n  <createdUserName><xsl:value-of select=\"'workday'\"/></createdUserName>\r\n  <updatedUserName><xsl:value-of select=\"'workday'\"/></updatedUserName>\r\n</com.zk.dcs.database.dataobject.Employee>\r\n</xsl:template>\t\r\n</xsl:stylesheet>]]></dcs.xsl>\r\n</com.workday.hr.WorkerType>"
+  } ],
+  "jobs" : [ {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "getWDLocations_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.getLocations",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "16 50 14  ? * * *",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "getWDOrganizations_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.getOrganizations",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 0 02 * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "getWDWorkers_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.getWorkers",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 05 1-23/6 * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "WSUnsubmitDataMonitor_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.wsmonitor.WSUnsubmitDataMonitor",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 0-59/30 * * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "WSClockMonitor_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.wsmonitor.WSClockMonitorJob",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 0-59/2 * * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "NoPunchEvent_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.wsmonitor.NoPunchEvent",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 0-59/10 * * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "getWDShiftScheduleCalendar_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.wsmonitor.ShiftScheduleCalendar",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 0-59/2 * * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "getWDManualShiftAssignmentsReport_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.getManualShiftAssignments",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 05 1-23/6 * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "getWDAutoShiftAssignmentsReport_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.getAutoShiftAssignments",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 05 1-23/6 * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "uploadVisitorLog_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.uploadVisitorLog",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "0 0-59/45 * * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  }, {
+    "enabled" : false,
+    "jobType" : "CLIENT",
+    "jobName" : "uploadAttLog_ACAQA",
+    "jobDescription" : "",
+    "roleKey" : "role.ws.putAttendanceLog",
+    "environment" : "US/ACAQA",
+    "param" : "<string>1</string>",
+    "cronSchedule" : "10 0-59/2 * * * ?",
+    "active" : true,
+    "status" : "ACTIVE",
+    "processorRoleKey" : ""
+  } ],
+  "roles" : [ {
+    "enabled" : true,
+    "level" : "T",
+    "accessScope" : "admin",
+    "authority" : "Super Admin",
+    "description" : "Super Admin",
+    "roleType" : "TENANT"
+  }, {
+    "enabled" : true,
+    "level" : "T",
+    "accessScope" : "supervisor",
+    "authority" : "Admin",
+    "description" : "Admin",
+    "roleType" : "TENANT"
+  }, {
+    "enabled" : true,
+    "level" : "T",
+    "authority" : "Clock Admin",
+    "description" : "Clock Admin",
+    "roleType" : "SYSTEM"
+  }, {
+    "enabled" : true,
+    "level" : "T",
+    "authority" : "HR/Payroll Manager ",
+    "description" : "HR/Payroll Manager ",
+    "roleType" : "SYSTEM"
+  }, {
+    "enabled" : true,
+    "level" : "T",
+    "authority" : "Supervisor",
+    "description" : "Supervisor",
+    "roleType" : "SYSTEM"
+  } ],
+  "tenantMenuRoles" : [ {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICES"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "HISTORY_LOGIN_AUDIT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "EXPIRED_ACCOUNTS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "REPORTS_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "EMPLOYEE_REPORT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ACTIVE_LOGIN_USERS_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "JOBS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "LOCKED_ACCOUNTS_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ORGANIZATIONS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ACCOUNT_USERS_REPORT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "MANUAL_OPERATIONS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ACCOUNT_USERS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TIME_DATA_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ACCOUNT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ACCOUNT_SETUP"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_MANAGER"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_SETUP"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "WORKDAY_INTEGRATION"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DASHBOARD_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "COMPANY_SETUP"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "EMPLOYEES"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "EMPLOYEE_GROUPS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ROUNDING_RULES"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "EMPLOYEE_RELOAD"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "MY_MESSAGES"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ATTENDANCE_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "VISITOR_LOG"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ROLES"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "AGENCY_MANAGEMENT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TIME_SHEET"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "EVENTS_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TIME_OFF_REQUEST"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TEAM_MEMBERS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "PUNCH_EXCEPTIONS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "QUESTIONS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "PROFILE"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "SECURITY_AUDIT_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ACCRUAL_BALANCE"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "ATTESTATION"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "SUBSCRIPTIONS_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TIME_OFF_TYPE_PAY_CODE"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "MYTEAM"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "FUNCTION_KEY_PROFILE_MANAGER"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_DATA_SYNC"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_EXCEPTION_AUDIT_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TENANT_USER_AUDIT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_OPERATIONS_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICES_INFO"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_TEMPLATE"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "INTEGRATION_PROPERTIES"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "TIME_AND_LABOR_DATA_"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_MONITOR_TENANT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_GROUPS"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_OPERATION_AUDIT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_MONITOR_HOST_VIEW"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_EXCEPTION_AUDIT_HOST_VIEW"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICES_INFO_HOST_VIEW"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "DEVICE_OPERATIONS_HOST_VIEW"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "GEN_ATTESTATION"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "WORK_HOUR_REPORT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "SQL_REPORT"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "BIO_ATTESTATION"
+  }, {
+    "roleName" : "Super Admin",
+    "menuPageCode" : "BELL_SCHEDULE"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ROUNDING_RULES"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ROLES"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ORGANIZATIONS"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "AGENCY_MANAGEMENT"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ACCOUNT_USERS"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "TIME_AND_LABOR_DATA_"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "QUESTIONS"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "PROFILE"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ACCOUNT"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ATTESTATION"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "TIME_OFF_TYPE_PAY_CODE"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "DASHBOARD_TENANT"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "COMPANY_SETUP"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "EMPLOYEE_SCHEDULE"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "EMPLOYEES"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "EMPLOYEE_GROUPS"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "TIME_DATA_TENANT"
+  }, {
+    "roleName" : "Admin",
+    "menuPageCode" : "ATTENDANCE_TENANT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICES"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "REPORTS_TENANT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "EMPLOYEE_REPORT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "ACCOUNT_USERS_REPORT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_MONITOR_TENANT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_MANAGER"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_SETUP"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_GROUPS"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DASHBOARD_TENANT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "FUNCTION_KEY_PROFILE_MANAGER"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_DATA_SYNC"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_EXCEPTION_AUDIT_TENANT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_OPERATIONS_TENANT"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICES_INFO"
+  }, {
+    "roleName" : "Clock Admin",
+    "menuPageCode" : "DEVICE_TEMPLATE"
+  }, {
+    "roleName" : "HR/Payroll Manager ",
+    "menuPageCode" : "DEVICES"
+  }, {
+    "roleName" : "HR/Payroll Manager ",
+    "menuPageCode" : "REPORTS_TENANT"
+  }, {
+    "roleName" : "HR/Payroll Manager ",
+    "menuPageCode" : "EMPLOYEE_REPORT"
+  }, {
+    "roleName" : "HR/Payroll Manager ",
+    "menuPageCode" : "ACCOUNT_USERS_REPORT"
+  }, {
+    "roleName" : "HR/Payroll Manager ",
+    "menuPageCode" : "DASHBOARD_TENANT"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "DEVICES"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "REPORTS_TENANT"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "MY_MESSAGES"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "EMPLOYEE_REPORT"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "MYTEAM"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "ACCOUNT_USERS_REPORT"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "DASHBOARD_TENANT"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "TIME_SHEET"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "TIME_OFF_REQUEST"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "TEAM_MEMBERS"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "PUNCH_EXCEPTIONS"
+  }, {
+    "roleName" : "Supervisor",
+    "menuPageCode" : "ACCRUAL_BALANCE"
+  } ],
+  "pageAccessPermissions" : [ {
+    "enabled" : true,
+    "create" : true,
+    "update" : true,
+    "read" : true,
+    "delete" : false,
+    "full" : true,
+    "roleName" : "Super Admin",
+    "menuPageCode" : "BELL_SCHEDULE"
+  }, {
+    "enabled" : true,
+    "create" : false,
+    "update" : false,
+    "read" : true,
+    "delete" : false,
+    "full" : false,
+    "roleName" : "Admin",
+    "menuPageCode" : "TIME_DATA_TENANT"
+  } ],
+  "buttonAccessPermissions" : [ ],
+  "accountUsers" : [ {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "authority" : "Clock Admin",
+      "description" : "Clock Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "dashboardLayout" : "empWorkDayDetails:clockStatusTenant;timeData:clockLimit:invalidPunchSummary:clockAssignments",
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "Christine",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "Frazier",
+    "loginId" : "cfrazier@ACAQA",
+    "password" : "e3018073bfefd64740907917adc0011f298dd34c8edbf42472dcd4bf2b4199ca82d9ba16dd8fc9d4",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "cfrazier",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : true,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "authority" : "Clock Admin",
+      "description" : "Clock Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "Greg",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "Carl",
+    "loginId" : "gcarl@ACAQA",
+    "password" : "f4e6878c58779d8d4371cd4ed436fb6745cb6045664798657a13a6988fe0b4f11616686f09e1d7e8",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "gcarl",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : false,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "authority" : "Clock Admin",
+      "description" : "Clock Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "Phillip",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "Adkins",
+    "loginId" : "padkins@ACAQA",
+    "password" : "0470e0a5b279d98977335fc0499c2f8a9af779590c5023fa420d2eac85e0c9a3d2de300251edbdd8",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "padkins",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : true,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "authority" : "Clock Admin",
+      "description" : "Clock Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "admin",
+      "authority" : "Super Admin",
+      "description" : "Super Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "Reginald",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "Jones",
+    "loginId" : "rjones@ACAQA",
+    "password" : "5b61523b4327a28ee700efce932bbf657393e5019f1a609934747f7496110ac9bb2db8ea09d1a9b6",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "rjones",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : true,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "authority" : "Clock Admin",
+      "description" : "Clock Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "V",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "P",
+    "loginId" : "VHP@ACAQA",
+    "password" : "a00f8770ac03cbbc0e98a8df4c3cbd5a2e45efc889afc0bb4de8f211a71f05095db404c5cd5e41dc",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "VHP",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : false,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "authority" : "Clock Admin",
+      "description" : "Clock Admin"
+    }, {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "vrushant",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "choksi",
+    "loginId" : "vc@ACAQA",
+    "password" : "071fb0dd3114b686e9f22bd5ac1a41ff69efed3f8282e8b8951a72ff904bdb6fa3ef249dc1d74271",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "vc",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : true,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "supervisor",
+      "authority" : "Admin",
+      "description" : "Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "nagaraja@zktechnology.com",
+    "firstName" : "Jaclyn",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "Riddle",
+    "loginId" : "Jaclyn@ACAQA",
+    "password" : "1d964245fc7936e5dec71d45fd1824f1064c0f90170825bde3481e43d6ac40b031202ce080e1013e",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "",
+    "username" : "Jaclyn",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : true,
+    "primaryContact" : false,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "admin",
+      "authority" : "Super Admin",
+      "description" : "Super Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "mahesh@zkteco.in",
+    "firstName" : "ts1",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "ts",
+    "loginId" : "test1@ACAQA",
+    "password" : "f054d882f9c1f2d49fbbee7573f38837f971b6c7647fec45abb813cdb2f1ff3d5c73b7d4926fbdde",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "1234567890",
+    "username" : "test1",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : false,
+    "primaryContact" : true,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "admin",
+      "authority" : "Super Admin",
+      "description" : "Super Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "mrishi212@gmail.com",
+    "firstName" : "A1",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "B",
+    "loginId" : "RISHIKESH@ACAQA",
+    "password" : "0d7f1f5707685f33c7b7bca6f3308048baa5cf10b05626e6c1e9049799b941d4bf779a8c8af010c8",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "8460409743",
+    "username" : "RISHIKESH",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : false,
+    "primaryContact" : true,
+    "deligateCol" : false
+  }, {
+    "enabled" : true,
+    "authorities" : [ {
+      "enabled" : true,
+      "level" : "T",
+      "accessScope" : "admin",
+      "authority" : "Super Admin",
+      "description" : "Super Admin"
+    } ],
+    "clientCode" : "ACAQA",
+    "country" : "US",
+    "credentialsNonExpired" : true,
+    "delegate" : false,
+    "email" : "harish090897@gmail.com",
+    "firstName" : "raj",
+    "host" : false,
+    "language" : "en",
+    "lastName" : "raj",
+    "loginId" : "sap@ACAQA",
+    "password" : "a672638b9b9eb197165ce29df345f5ffc035aad96d38b1929c493c1583a3fffd86b7f9475a0616b1",
+    "passwordExpires" : true,
+    "passwordHint" : "",
+    "phoneNumber" : "8940917223",
+    "username" : "sap",
+    "version" : 1,
+    "passwordNonExpire" : true,
+    "emailVerified" : false,
+    "primaryContact" : true,
+    "deligateCol" : false
+  } ]
+}
